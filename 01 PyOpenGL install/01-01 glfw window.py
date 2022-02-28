@@ -23,6 +23,7 @@ def main():
     while not glfw.window_should_close(window):
         glfw.poll_events()
 
+        # use double buffering
         glfw.swap_buffers(window)
     
     # 7. terminate glfw
